@@ -1,5 +1,5 @@
 module.exports = (path, projectName) => {
-  const antdProPath = path.match(/src(.*)/)[1].replace('.less', '').replace('.module.less');
+  const antdProPath = path.match(/src(.*)/)[1].replace('.less', '').replace('.module', '');
   const arr = antdProPath
     .split('/')
     .map(a => a.replace(/([A-Z])/g, '-$1'))

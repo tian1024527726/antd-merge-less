@@ -1,6 +1,6 @@
 {
   "name": "antd-merge-less",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A webpack plugin for ant design project less",
   "main": "index.js",
   "scripts": {
